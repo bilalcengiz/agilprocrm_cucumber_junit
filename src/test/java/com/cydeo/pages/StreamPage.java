@@ -15,7 +15,7 @@ public class StreamPage {
     public WebElement moreButton;
 
 
-    @FindBy(xpath = "/html/body/table/tbody/tr[2]/td/table/tbody/tr[1]/td[1]/div[1]/ul/li[14]/ul/li[3]/a/span")
+    @FindBy(css = "a[title='Applications'] span[data-role='item-text']")
     public WebElement applicationsButton;
 
 

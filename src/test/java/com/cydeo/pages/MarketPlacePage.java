@@ -59,9 +59,8 @@ public class MarketPlacePage {
     public WebElement installationMessage;
 
 
-
-
     // -------------------Methods related to page------------------------------------
+
 
     public void randomlyClickViewButton(){
         Random random= new Random();
